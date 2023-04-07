@@ -10,11 +10,6 @@ img {
     height: 100%;
 }
 
-/* VARIABLES RAIZ */
-:root{
-    --primary_color: "#000000";
-    --standard_size: 50px,
-}
 
 body {
     height: auto;
