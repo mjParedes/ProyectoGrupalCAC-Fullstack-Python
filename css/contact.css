@@ -1,0 +1,12 @@
+.formatoformulario {
+    background-color: rgba(43, 7, 73, 0.774);
+    align-content: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+textarea{
+    height: 4.4em;
+    width: 300px;
+}

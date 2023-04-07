@@ -1,50 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/globalStyles.css">
-    <title>JUST MUSIC - CONTACT</title>
-</head>
-<body>
-    <div class="container">
-      <nav class="navbar">
-        <div class="navbar_logo">
-          <a href="../index.html">
-            <h1>JUST MUSIC</h1>
-          </a>
-        </div>
-        <ul class="navbar_menu">
-          <li><a href="./about.html">ABOUT</a></li>
-          <li><a href="./history.html">HISTORY</a></li>
-          <li><a href="./pages/notices.html">NOTICES</a></li>
-          <li><a href="./shop.html">SHOP</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-        <div>
-          <span>SEARCH </span>
-          <input type="text" placeholder="Ingresa tu busqueda" />
-        </div>
-      </nav>
+<html lang="es">
 
-      <header>
-        <div class="hero_container">
-          <h1 class="hero_container_title">TU MUSICA, TU SITIO...</h1>
-        </div>
-      </header>
-  
-        <main>
-          
-  
-          <section></section>
-        </main>
-  
-        <footer>
-          <h3>Just Music - Footer</h3>
-        </footer>
-        
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../images/Just_MusicLOCOICO.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/globalStyles.css">
+  <link rel="stylesheet" href="../css/contact.css">
+
+  <title>JUST MUSIC - CONTACT</title>
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar">
+      <div class="navbar_logo">
+        <a href="../index.html">
+          <h1>JUST MUSIC</h1>
+        </a>
       </div>
-    
+      <ul class="navbar_menu">
+        <li><a href="./about.html">ABOUT</a></li>
+        <li><a href="./history.html">HISTORY</a></li>
+        <li><a href="./pages/notices.html">NOTICES</a></li>
+        <li><a href="./shop.html">SHOP</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+      <div>
+        <span>SEARCH </span>
+        <input type="text" placeholder="Ingresa tu busqueda" />
+      </div>
+    </nav>
+
+    <header>
+      <div class="hero_container">
+        <h1 class="hero_container_title">TU MUSICA, TU SITIO...</h1>
+      </div>
+    </header>
+
+    <main>
+
+
+      <section  >
+        <br><br>
+        <Form action="" method="post">
+          <fieldset class="formatoformulario">
+            <b>
+              <h2><center>CONTACTANOS</center></h2> <br> <br>
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" id="nombre" size="60"> <br>
+              <br>
+              <label for="apellido">Apellido:</label>
+              <input type="text" name="apellido" id="apellido" size="60"> <br>
+              <br>
+              <label for="telefono">Telefono:</label>
+              <input type="number" name="telefono" id="telefono" size="60"><br>
+              <br>
+              <label for="correo">Correo Electronico:</label>
+              <input type="email" name="correo" id="correo" size="50"><br>
+              <br>
+              <label for="genero">Genero musical de interes: </label>
+            </b><br> <br>
+            <input type="checkbox" name="genero" id="1"> ROCK INTERNACIONAL <br>
+            <input type="checkbox" name="genero" id="2"> ROCK NACIONAL <br>
+            <input type="checkbox" name="genero" id="3"> POP <br>
+            <input type="checkbox" name="genero" id="4"> JAZZ & BLUES <br>
+            <input type="checkbox" name="genero" id="5"> SOUL <br>
+            <input type="checkbox" name="genero" id="6"> ELECTRONICA <br>
+            <input type="checkbox" name="genero" id="7"> URBANA (RAP/ HIP HOP / TRAP) <br>
+            <br>
+            <label for="consulta"> <b> Dejanos tu consulta: </b></label> <br>
+            <textarea name="consulta" id="1" cols="30" rows="10"></textarea>
+            <br>
+            <input type="submit" value="ENVIAR">
+          </fieldset>
+        </Form>
+        <br><br>
+
+      </section>
+    </main>
+
+    <footer>
+      <h3>Just Music - Footer</h3>
+    </footer>
+
+  </div>
+
 </body>
+
 </html>
