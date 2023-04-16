@@ -78,17 +78,97 @@ body {
     font-style:oblique;
 }
 
+
+.contenedorform {
+    margin: 4%;
+    padding: 2%;
+    background: linear-gradient(#232029, #1c2e6e, #3f88cc);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #091141;
+}
+
 .formatoformulario {
-    background-color: rgba(43, 7, 73, 0.774);
-    align-content: center;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    padding: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(255, 255, 255, 0.63);
+    padding: 5% 10% 5% 10%;
+    border-radius: 5px;
+    border-style: none;
+    font-family: sans-serif;
+    width: 60vw;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
 }
-textarea{
-    height: 4.4em;
-    width: 300px;
+
+.formatoinput input {
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    border-style: none;
+    padding: 5px;
+    color: rgb(138, 40, 138);
 }
+
+.formatoinput input:hover {
+    background-color: #d6c8f8;
+}
+
+.formatoformulario textarea {
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    width: 100%;
+    border-style: none;
+    padding: 5px;
+    color: rgb(138, 40, 138);
+}
+
+.formatoformulario textarea:hover {
+    background-color: #d6c8f8;
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+}
+
+.boton input {
+    background-color: #1c2e6e;
+    color: white;
+    font-size: 1.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.boton input:hover {
+    background-color: rgb(138, 40, 138);
+    cursor: pointer;
+}
+
+
+#textomapa h1{
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(83, 39, 83);
+    }
+#textomapa p{
+    font-family: 'PT Serif Caption';
+    font-size: 1.5em;
+    text-align: center;}
+    
+.mapa{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+
 
 /* MEDIA QUERIES || RESPONSIVE  */
