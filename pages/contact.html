@@ -7,12 +7,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="shortcut icon" href="../images/Just_MusicLOCOICO.ico" type="image/x-icon">
   <link rel="stylesheet" href="../css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Serif+Caption:ital@1&display=swap"
+    rel="stylesheet">
 
   <title>JUST MUSIC - CONTACT</title>
 </head>
 
 <body>
-  <div class="container">
+   <div class="container">
     <nav class="navbar">
       <div class="navbar_logo">
         <a href="../index.html">
@@ -36,47 +40,65 @@
         <h1 class="hero_container_title">TU MUSICA, TU SITIO...</h1>
       </div>
     </header>
-
     <main>
 
-
-      <section  >
+      <section>
         <br><br>
-        <Form action="" method="post">
-          <fieldset class="formatoformulario">
-            <b>
-              <h2><center>CONTACTANOS</center></h2> <br> <br>
-              <label for="nombre">Nombre:</label>
-              <input type="text" name="nombre" id="nombre" size="60"> <br>
-              <br>
-              <label for="apellido">Apellido:</label>
-              <input type="text" name="apellido" id="apellido" size="60"> <br>
-              <br>
-              <label for="telefono">Telefono:</label>
-              <input type="number" name="telefono" id="telefono" size="60"><br>
-              <br>
-              <label for="correo">Correo Electronico:</label>
-              <input type="email" name="correo" id="correo" size="50"><br>
-              <br>
-              <label for="genero">Genero musical de interes: </label>
-            </b><br> <br>
-            <input type="checkbox" name="genero" id="1"> ROCK INTERNACIONAL <br>
-            <input type="checkbox" name="genero" id="2"> ROCK NACIONAL <br>
-            <input type="checkbox" name="genero" id="3"> POP <br>
-            <input type="checkbox" name="genero" id="4"> JAZZ & BLUES <br>
-            <input type="checkbox" name="genero" id="5"> SOUL <br>
-            <input type="checkbox" name="genero" id="6"> ELECTRONICA <br>
-            <input type="checkbox" name="genero" id="7"> URBANA (RAP/ HIP HOP / TRAP) <br>
-            <br>
-            <label for="consulta"> <b> Dejanos tu consulta: </b></label> <br>
-            <textarea name="consulta" id="1" cols="30" rows="10"></textarea>
-            <br>
-            <input type="submit" value="ENVIAR">
-          </fieldset>
-        </Form>
-        <br><br>
-
+        <Div class="contenedorform">
+          <Form action="" method="post">
+              <fieldset class="formatoformulario">
+                <b>
+                  <h2><center>CONTACTANOS</center></h2> <br> <br>
+                  <Div class="formatoinput"><label for="nombre">Nombre:</label>
+                  <input type="text" name="nombre" id="nombre" size="40"> <br>
+                  <br>
+                  <label for="apellido">Apellido:</label>
+                  <input type="text" name="apellido" id="apellido" size="40"> <br>
+                  <br>
+                  <label for="telefono">Telefono:</label>
+                  <input type="number" name="telefono" id="telefono" size="40"><br>
+                  <br>
+                  <label for="correo">Correo Electronico:</label>
+                  <input type="email" name="correo" id="correo" size="40"><br>
+                  <br></Div>
+                  <div>
+                  <label for="genero">Genero musical de interes: </label>
+                </b><br><br>
+                <input type="checkbox" name="genero" id="1"> ROCK INTERNACIONAL <br>
+                <input type="checkbox" name="genero" id="2"> ROCK NACIONAL <br>
+                <input type="checkbox" name="genero" id="3"> POP <br>
+                <input type="checkbox" name="genero" id="4"> JAZZ & BLUES <br>
+                <input type="checkbox" name="genero" id="5"> SOUL <br>
+                <input type="checkbox" name="genero" id="6"> ELECTRONICA <br>
+                <input type="checkbox" name="genero" id="7"> URBANA (RAP/ HIP HOP / TRAP) 
+                <br><br>
+                <label for="consulta"> <b> Dejanos tu consulta: </b></label> <br>
+                <textarea name="consulta" id="1" cols="40" rows="20"></textarea>
+                <br>
+                <div class="boton"><input  type="submit" value="ENVIAR"></div>
+              </div>
+              </fieldset>
+            </Form>
+            <br><br>
+      </Div>
       </section>
+
+      <section class="contenedorform">
+        <div class="formatoformulario">
+        <div id="textomapa">
+          <h1>¿Dónde encontrarnos?</h1>
+          <br>
+          <p>Oficina 5 - Ciudad Cultural KONEX</p>
+          <p>Dirección: Sarmiento 3131 - CABA</p>
+          <br>
+        </div>
+        <br>
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26271.23816114285!2d-58.44349318437495!3d-34.60656949999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb577e34f9e55%3A0x6dd823092cb367d9!2sCiudad%20Cultural%20Konex!5e0!3m2!1ses-419!2sar!4v1681606613148!5m2!1ses-419!2sar" width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+      </section>
+
     </main>
 
     <footer>
