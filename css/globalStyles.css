@@ -21,10 +21,6 @@ body {
     /* width: 100vw; */
 }
 
-main{
-    height: 70%;
-}
-
 .container{
     background-color: var(--primary_color);
     font-size: var(--standard_size);
@@ -81,7 +77,6 @@ main{
     font-size: 55px;
     font-style:oblique;
 }
-
 /*FOOTER STYLES*/
 footer .container {
     background-color: white;
