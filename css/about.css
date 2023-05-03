@@ -57,6 +57,11 @@ body {
     text-decoration: none;
 }
 
+.navbar_logo a img{
+    width: 150px;
+    height: 150px;
+}
+
 /* HERO STYLES */
 .hero_container{
     display: flex;
@@ -78,6 +83,119 @@ body {
     font-style:oblique;
 }
 
+.contenedor-descripcion{
+    height: 400px;
+    width: auto;
+    text-align: center;
+}
+
+/*ANIMACION*/
+
+.contenedor-animacion{
+    height: 380px;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background: linear-gradient(rgba(255, 255, 255, 0.091), rgba(28, 20, 102, 0.489));
+}
+.chico{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 2px;
+animation: chico 1s ease-in-out 2s infinite
+}
+
+@keyframes chico {
+    0%{transform: rotate(0deg);}
+    50%{transform: rotate(2deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.chica{
+    display: flex;
+    padding: 2px;
+    justify-content: center;
+    align-items:center;    
+}
+
+/* ANIMACION:ONDAS MUSICALES*/
+
+.ondas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+.music{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.music .bar {
+    width: 12px;
+    border-radius: 10px;
+    background: white;
+    animation: movement 1.5s ease-in-out infinite;
+    border-width: 1px;
+}
+@keyframes movement {
+    0%, 100%{
+        height: 2px;
+    }
+    50%{
+        height: 80px;
+    }
+}
+.music .bar:nth-child(1){
+    background: #901e9b;
+    animation-delay: 1s;
+}
+.music .bar:nth-child(2){
+    background: rgb(83, 53, 190);
+    animation-delay: .8s;
+}
+.music .bar:nth-child(3){
+    background: #901e9b;
+    animation-delay: .6s;
+}
+.music .bar:nth-child(4){
+    background: rgb(83, 53, 190);
+    animation-delay: .4s;
+}
+.music .bar:nth-child(5){
+    background: #901e9b;
+    animation-delay: .2s;
+}
+.music .bar:nth-child(6){
+    background: rgb(83, 53, 190);
+    animation-delay: .6s;
+}
+.music .bar:nth-child(7){
+    background: #901e9b;
+    animation-delay: 1s;
+}
+.music .bar:nth-child(8){
+    background: rgb(83, 53, 190);
+    animation-delay: 1s;
+}
+.music .bar:nth-child(9){
+    background: #901e9b;
+    animation-delay: .8s;
+}
+.music .bar:nth-child(10){
+    background: rgb(83, 53, 190);
+    animation-delay: 1s;
+}
+.ondas2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0px,100px);
+}
 
 
 /* MEDIA QUERIES || RESPONSIVE  */
