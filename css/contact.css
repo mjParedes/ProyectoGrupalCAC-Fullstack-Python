@@ -56,6 +56,10 @@ body {
 .navbar_logo a{
     text-decoration: none;
 }
+.navbar_logo a img{
+    width: 150px;
+    height: 150px;
+}
 
 /* HERO STYLES */
 .hero_container{
@@ -79,7 +83,7 @@ body {
 }
 
 
-.contenedorform {
+.formulario {
     margin: 4%;
     padding: 2%;
     background: linear-gradient(#232029, #1c2e6e, #3f88cc);
