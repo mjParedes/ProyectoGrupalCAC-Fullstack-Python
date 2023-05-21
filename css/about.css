@@ -275,7 +275,7 @@ animation: chico 1s ease-in-out 2s infinite
 
 /*FOOTER STYLES*/
 footer .container {
-    background-color: white;
+  background-color: #e385ec;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

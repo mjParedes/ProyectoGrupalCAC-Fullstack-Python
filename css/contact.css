@@ -172,7 +172,7 @@ body {
 
 /*FOOTER STYLES*/
 footer .container {
-    background-color: white;
+    background-color: #e385ec;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
