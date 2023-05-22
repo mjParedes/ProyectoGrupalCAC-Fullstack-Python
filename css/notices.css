@@ -83,6 +83,7 @@ body {
   font-style: oblique;
 }
 
+
 /*FOOTER STYLES*/
 footer .container {
   background-color: #e385ec
@@ -90,8 +91,7 @@ footer .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 100%;
-  height: 5%;
+  width: 100%; 
   align-items: center;
   border-top-width: 10px;
   border-top-color: black;
@@ -230,6 +230,10 @@ header button {
   border-radius: 5px;
   
 }
+.container-noticias h2{
+  margin: 5%;
+}
+
 
 .container-noticias .item {
   background-color: #eee;
@@ -276,8 +280,15 @@ header button {
 .container-noticias #btnSiguiente:hover {
   color: #fc0505;
 }
-
-.
+h2{
+  {
+    font-family: 'Bebas Neue';
+    letter-spacing: 0.1em;
+    font-size: 2em;
+    text-align: center;
+    color: rgb(83, 39, 83);
+    }
+}
 /* MEDIA QUERIES || RESPONSIVE  */
 
 @media (max-width:320px){
