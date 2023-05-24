@@ -153,4 +153,79 @@ body {
     color: white;
 }
 
+/*FOOTER STYLES*/
+footer .container {
+    background-color: #e385ec;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    border-top-width: 10px;
+    border-top-color: black;
+  
+  }
+  
+  footer .tittle-section {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 33%;
+  
+  
+  }
+  
+  .tittle-section img {
+    width: 33%;
+  
+  }
+  
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+  
+  
+  }
+  
+  .information a {
+    text-decoration: none;
+    color: black;
+    position: relative;
+  }
+  
+  
+  
+  .social-network {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 33%;
+  }
+  
+  .social-network i {
+    font-size: 25px;
+    padding: .25rem;
+    
+    justify-content: center;
+  }
+  
+  .botton-twitter {
+    color: #00acee;
+  }
+  .botton-facebook{
+    color: #3b5998;
+  }
+  .botton-instagram{
+    color: black;
+  }
+  .botton-tiktok{
+    color: black;
+  }
+  /*FOOTER STYLES*/
+
 /* MEDIA QUERIES || RESPONSIVE  */
