@@ -55,10 +55,6 @@ body {
   margin: 0;
   padding: 0;
 }
-.navbar_logo a img{
-    width: 150px;
-    height: 150px;
-}
 
 .navbar_menu li {
   margin-left: 10px;
