@@ -280,19 +280,3 @@ header button {
 .container-noticias #btnSiguiente:hover {
   color: #fc0505;
 }
-h2{
-  {
-    font-family: 'Bebas Neue';
-    letter-spacing: 0.1em;
-    font-size: 2em;
-    text-align: center;
-    color: rgb(83, 39, 83);
-    }
-}
-/* MEDIA QUERIES || RESPONSIVE  */
-
-@media (max-width:320px){
-.container-noticias{
-
-}
-}
