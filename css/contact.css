@@ -59,10 +59,6 @@ body {
 .navbar_logo a {
   text-decoration: none;
 }
-.navbar_logo a img{
-    width: 150px;
-    height: 150px;
-}
 
 /* HERO STYLES */
 .hero_container {
@@ -86,18 +82,6 @@ body {
   font-style: oblique;
 }
 
-
-.formulario {
-    margin: 4%;
-    padding: 2%;
-    background: linear-gradient(#232029, #1c2e6e, #3f88cc);
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    color: #091141;
-
 .contenedorform {
   margin: 4%;
   padding: 2%;
@@ -108,7 +92,6 @@ body {
   align-items: center;
   flex-wrap: wrap;
   color: #091141;
-
 }
 
 .formatoformulario {
