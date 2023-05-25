@@ -45,6 +45,7 @@ body {
   position: sticky;
   grid-area: navbar;
 }
+
 .navbar_menu {
   display: flex;
   flex-direction: row;
@@ -54,9 +55,11 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .navbar_menu li {
   margin-left: 10px;
 }
+
 .navbar_menu li a {
   text-decoration: none;
 }
@@ -66,7 +69,7 @@ body {
 }
 
 /* HEADER STYLES */
-.header_content{
+.header_content {
   grid-area: header;
   margin: 0 5px;
 }
@@ -83,9 +86,11 @@ body {
   background-position: 100% 100%;
   height: calc(100vh - 72px);
 }
+
 .hero_container h1 {
   color: azure;
 }
+
 .hero_container_title {
   font-size: 55px;
   font-style: oblique;
@@ -105,7 +110,8 @@ body {
   padding: 20px;
   margin: 5px;
 }
-.aside_content img{
+
+.aside_content img {
   width: 75%;
   height: auto;
 }
@@ -118,6 +124,7 @@ body {
   padding: 10px;
   margin: 5px;
 }
+
 footer .container {
   background-color: #e385ec;
   display: flex;
@@ -173,20 +180,23 @@ footer .tittle-section {
 .social-network i {
   font-size: 25px;
   padding: .25rem;
-  
+
   justify-content: center;
 }
 
 .botton-twitter {
   color: #00acee;
 }
-.botton-facebook{
+
+.botton-facebook {
   color: #3b5998;
 }
-.botton-instagram{
+
+.botton-instagram {
   color: black;
 }
-.botton-tiktok{
+
+.botton-tiktok {
   color: black;
 }
 
@@ -213,10 +223,12 @@ footer .tittle-section {
       "footer footer ";
     gap: 5px;
   }
+
   .navbar {
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
   }
+
   .navbar_menu {
     flex-direction: column;
   }
@@ -232,12 +244,14 @@ footer .tittle-section {
       "footer ";
     gap: 5px;
   }
+
   .navbar {
-    flex-direction:column;
+    flex-direction: column;
     justify-content: space-between;
   }
+
   .navbar_menu {
     flex-direction: column;
   }
-  
+
 }
