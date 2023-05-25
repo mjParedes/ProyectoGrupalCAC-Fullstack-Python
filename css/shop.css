@@ -39,6 +39,7 @@ body {
   padding: 15px;
   position: sticky;
 }
+
 .navbar_menu {
   display: flex;
   flex-direction: row;
@@ -46,9 +47,11 @@ body {
   align-items: center;
   list-style-type: none;
 }
+
 .navbar_menu li {
   margin-left: 30px;
 }
+
 .navbar_menu li a {
   text-decoration: none;
 }
@@ -69,9 +72,11 @@ body {
   background-repeat: none;
   height: calc(100vh - 72px);
 }
+
 .hero_container h1 {
   color: azure;
 }
+
 .hero_container_title {
   font-size: 55px;
   font-style: oblique;
@@ -208,15 +213,19 @@ footer .tittle-section {
 .botton-twitter {
   color: #00acee;
 }
+
 .botton-facebook {
   color: #3b5998;
 }
+
 .botton-instagram {
   color: black;
 }
+
 .botton-tiktok {
   color: black;
 }
+
 /*FOOTER STYLES*/
 
 /* MEDIA QUERIES || RESPONSIVE  */
